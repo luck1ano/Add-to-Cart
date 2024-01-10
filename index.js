@@ -37,7 +37,7 @@ onValue(shoppingListInDB, function(snapshot) {
             appendItemToShoppingListEl(currentItem)
         }    
     } else {
-        shoppingListEl.innerHTML = "Nu a fost adăugat nimic ... încă"
+        shoppingListEl.innerHTML = "Nu a fost adăugat nimic ... deocamdată"
     }
     
     
